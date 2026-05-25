@@ -1,0 +1,27 @@
+.red-text {
+    color:red;
+}
+
+/* Id Selector */
+
+#main {
+    color: red;
+}
+
+/* Attribute Selector */
+
+p[draggable] {
+    color: red;
+}
+
+/* Attribute Selector */
+
+p[draggable="false"] {
+    color: blue;
+}
+
+/* Universal Selector */
+
+*{
+    color: purple;
+}
